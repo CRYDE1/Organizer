@@ -1,0 +1,147 @@
+html,
+body {
+    height: 100%;
+    /*overflow-x: hidden;*/
+}
+
+.container2 {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.navbar {
+    max-height: 70px;
+}
+
+#profile {
+    /*justify-content: flex-end;*/
+    /*margin-right: 500px;*/
+}
+
+.navbar-collapse {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.logo {
+    height: 60px;
+    width: 66px;
+}
+
+.group {
+    width: 15%;
+    /*height: 100%;*/
+    /*max-height: 100%;*/
+    background-color: #F5F5F5;
+}
+
+.group > ul > li {
+    list-style: none;
+}
+
+.site-index{
+    /*width: 70%;*/
+    margin-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main{
+    width: 100%;
+    height: auto;
+    max-height: 1000%;
+    display: flex;
+    flex-direction: row;
+}
+
+.socialImg {
+    height: 40px;
+    width: 40px;
+}
+
+#footerNav {
+    position: inherit;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+#footerText {
+    display: block;
+    padding: .5rem 1rem;
+    color: #0d6efd;
+    text-decoration: none;
+}
+
+.groupButton, .groupButton:hover, .groupButton:visited{
+    width: 80%;
+    display: flex;
+    border-radius: 50px;
+    background-color: #212529;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 5px 0;
+    padding: 5px 0;
+    text-decoration: none;
+    color: white;
+}
+
+.task{
+    margin: 10px 0;
+    border-radius: 20px;
+    width: 55%;
+}
+.taskForm{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.taskDate{
+    color: grey;
+}
+
+.taskInc\&Exp{
+    color: grey;
+}
+
+.taskControl{
+    display: inline;
+}
+
+.taskHeader{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 20px 20px 0 0;
+    padding: .5rem 1rem;
+    margin-bottom: 0;
+    background-color: rgba(0,0,0,.03);
+    border-bottom: 1px solid rgba(0,0,0,.125);
+}
+
+.link , .link:hover, .link:visited{
+    color: black;
+    text-decoration: none;
+}
+
+.site-login{
+    margin-left: 150px;
+}
+
+.register_button2{
+    margin-top: 20px;
+}
+
+.noteHeader{
+    justify-content: flex-end;
+}
